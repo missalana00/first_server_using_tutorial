@@ -13,5 +13,11 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-    console.log('Serving started on port ' + port);
+    console.log('Server started on port ' + port);
 });
+
+// Run node firstServer.js 
+// Go to browser and go to http: 127.0.0.1:3000 to see 'I can do this.'
+
+// Server is up and running! Doesn't do much...just outputs text, but 
+// it is, in fact, a server! 
